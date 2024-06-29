@@ -216,6 +216,7 @@ button {
     align-items: center;
     justify-content: center;
     overflow-y: auto;
+    padding: 0 200px;
     padding-bottom: 87px;
 }
 
@@ -321,14 +322,14 @@ button {
     display: flex;
     overflow-y: auto;
     gap: 27px;
-    padding-left: 164px;
-    padding-right: 164px;
+    padding-left: 230px;
+    padding-right: 230px;
 
 }
 
 .member {
     text-align: center;
-    padding: 0 80px;
+    padding: 0 60px;
 
 
 }
@@ -359,7 +360,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 85px;
+    padding-top: 95px;
     padding-bottom: 70px;
 }
 
@@ -393,10 +394,12 @@ button {
 
 .container_faq {
     display: flex;
-    gap: 80px;
+    gap: 50px;
     padding-top: 74px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 280px;
+    padding-right: 280px;
+    overflow-y: auto;
+    overflow-x: auto;
 }
 
 .faq h3 {
@@ -410,7 +413,7 @@ button {
     font-weight: 400;
     color: var(--color-text2);
     padding-top: 30px;
-    padding-bottom: 84px;
+    padding-bottom: 100px;
 
 
 }
@@ -426,7 +429,9 @@ button {
 .container_footer {
     display: flex;
     justify-content: space-between;
-    padding: 95px 240px;
+    align-items: center;
+    padding: 95px 290px;
+    overflow-y: auto;
 }
 
 .footer_logo {
@@ -436,6 +441,8 @@ button {
 
 .social_icons {
     color: var(--color-text);
+    display: flex;
+    align-items: center;
 }
 
 .social_icons i {
@@ -450,4 +457,43 @@ button {
     font-size: 12px;
     font-weight: 400;
     padding-bottom: 40px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .links {
+        flex-direction: column;
+    }
+
+    .pro {
+        padding-bottom: 20px;
+    }
+
+    .pros {
+        flex-direction: column;
+    }
+
+    .testimonials {
+        padding: 60px 30px;
+    }
+
+    .container-tuto {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .container_member {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .container_faq {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+
 }
