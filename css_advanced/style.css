@@ -22,82 +22,70 @@ body {
 
 /*--------------------- Nav Bar-------------------  */
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 172px;
 
+}
 
+.links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    list-style-type: none;
+}
 
+.links a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0 20px;
+}
 
+.links a:hover {
+    color: var(--color-background);
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.navbar_background {
+.navbar-background {
     background-image: url(./images/Object.png);
     background-size: cover;
-    height: 130vh;
 }
 
 
 
 
-/*--------------------- Section Header-------------------  */
-
-.header {
-    position: relative;
-    top: 5rem;
-}
-
-/*--------------------- Top Header-------------------  */
+/*--------------------- Section Main-------------------  */
+/*--------------------- Top main-------------------  */
 
 
-.header_top h1 {
+.main-top h1 {
     color: var(--color-text);
     font-size: 120px;
     font-weight: 700;
     text-align: center;
-    padding-top: 151px;
+    padding-top: 220px;
     line-height: 150px;
 }
 
-.header_span {
+.main-span {
     font-size: 16px;
     font-weight: 700;
     text-align: center;
     color: var(--color-text);
 }
 
-.header_span span {
+.main-span span {
     padding: 0 30px;
 }
 
-.header_button {
+.main-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 38px;
 }
 
 button {
@@ -107,39 +95,38 @@ button {
     background-color: var(--color-background);
     border: none;
     border-radius: 2rem;
-    box-shadow: 3px 5px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
     padding: 1rem 2rem;
 }
 
-/*--------------------- Below Header-------------------  */
+/*--------------------- Below main-------------------  */
 
-.header_below {
-    margin: 8rem 1.2rem;
-}
 
-.header_below h2 {
+.main-below h2 {
     font-size: 32px;
     font-weight: 300;
     text-align: center;
     color: var(--color-text);
+    padding-top: 200px;
 }
 
-.header_below span {
+.main-below span {
     color: var(--color-background);
     font-weight: 700;
 }
 
 .pros {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     align-items: center;
-    gap: 2rem;
-    padding: 5rem 3rem;
     text-align: center;
+    overflow-y: auto;
+    padding: 0 217px;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
 .pro {
-    padding: 0 2rem;
+    padding: 0 100px;
 }
 
 .pro_img {
@@ -158,6 +145,8 @@ button {
 .pro_info h3 {
     font-size: 18px;
     font-weight: 900;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .pro_info p {
@@ -174,8 +163,8 @@ button {
     justify-content: center;
     align-items: center;
     background-color: var(--color-background);
-    gap: 2rem;
-    padding: 6rem 9rem;
+    gap: 53px;
+    padding: 120px 230px;
 
 }
 
@@ -188,7 +177,7 @@ button {
     color: var(--color-text);
     font-size: 22px;
     font-weight: 400;
-    padding-bottom: 2rem;
+    padding-bottom: 22px;
 }
 
 .testimonials h3 {
@@ -207,16 +196,13 @@ button {
 
 /*--------------------- Section Tutorials-------------------  */
 
-.tutorials {
-    margin-top: 5rem;
-}
 
 .tutorials h2 {
     font-size: 32px;
     font-weight: 300;
     color: var(--color-bg2);
     text-align: center;
-    padding-bottom: 5rem;
+    padding: 87px 0;
 }
 
 .tutorials span {
@@ -225,55 +211,57 @@ button {
     font-weight: 700;
 }
 
-.container_tuto {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    padding: 1rem 12rem;
+.container-tuto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    padding-bottom: 87px;
 }
 
 .tuto {
     border: 1px solid transparent;
+    padding: 0 31px;
 }
 
-.tuto_img {
+.tuto-img {
     width: 255px;
     height: 154px;
     position: relative;
 }
 
-.tuto_img span {
+.tuto-img span {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.tuto_info {
-    padding: 1rem 1rem;
+.tuto-info {
+    padding: 18px 18px;
     width: 255px;
 }
 
-.tuto_info h3 {
+.tuto-info h3 {
     font-size: 16px;
     font-weight: 700;
     color: var(--color-bg2);
 
 }
 
-.tuto_info p {
+.tuto-info p {
     font-size: 14px;
     font-weight: 400;
     color: var(--color-text2);
     line-height: 1.5rem;
-    padding: 1rem 0;
+    padding: 10px 0;
 }
 
 .avatar {
     display: flex;
-    gap: 1rem;
+    gap: 10px;
     align-items: center;
-    padding-bottom: 1rem;
+    padding-bottom: 14px;
 }
 
 .avatar img {
@@ -309,9 +297,7 @@ button {
 /*--------------------- Section Membership-------------------  */
 
 .membership {
-    margin-top: 3rem;
     background-color: var(--color-bg2);
-    padding: 4rem 5rem;
 }
 
 .membership h2 {
@@ -319,7 +305,9 @@ button {
     font-weight: 300;
     color: var(--color-text);
     text-align: center;
-    padding-bottom: 3rem;
+    padding-top: 70px;
+    padding-bottom: 57px;
+
 
 }
 
@@ -331,19 +319,24 @@ button {
 
 .container_member {
     display: flex;
-    gap: 3rem;
-    padding: 0 4rem;
+    overflow-y: auto;
+    gap: 27px;
+    padding-left: 164px;
+    padding-right: 164px;
+
 }
 
 .member {
     text-align: center;
-    padding: 1rem 4rem;
+    padding: 0 80px;
+
+
 }
 
 .member img {
     width: 44;
     height: 35;
-    padding-bottom: 1.5rem;
+    padding-bottom: 30px;
 
 }
 
@@ -351,7 +344,6 @@ button {
     font-size: 18px;
     font-weight: 600;
     color: var(--color-text);
-    padding-bottom: 1.5rem;
 
 }
 
@@ -360,13 +352,15 @@ button {
     font-weight: 400;
     color: var(--color-text);
     line-height: 1.5rem;
+    padding: 10px;
 }
 
 .membership_button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 85px;
+    padding-bottom: 70px;
 }
 
 .membership button {
@@ -383,29 +377,27 @@ button {
 
 /*--------------------- Section faq-------------------  */
 
-.faqs {
-    padding: 2rem 5rem;
-}
 
 .faqs h2 {
     text-align: center;
-    padding: 3rem 3rem;
+    padding-top: 67px;
     font-weight: 300;
     font-size: 60px;
     color: var(--color-bg2);
 }
 
-.container_faq {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    padding: 1rem 4rem;
-}
-
 .faq {
-    padding: 0 10rem;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 
+.container_faq {
+    display: flex;
+    gap: 80px;
+    padding-top: 74px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
 
 .faq h3 {
     font-size: 16px;
@@ -417,14 +409,16 @@ button {
     font-size: 14px;
     font-weight: 400;
     color: var(--color-text2);
-    padding: 2rem 0;
+    padding-top: 30px;
+    padding-bottom: 84px;
+
+
 }
 
 
 /*--------------------- Section footer-------------------  */
 
 .footer {
-    padding: 2rem 5rem;
     background-color: var(--color-bg2);
     text-align: center;
 }
@@ -432,7 +426,7 @@ button {
 .container_footer {
     display: flex;
     justify-content: space-between;
-    padding: 5rem 5rem;
+    padding: 95px 240px;
 }
 
 .footer_logo {
@@ -445,7 +439,7 @@ button {
 }
 
 .social_icons i {
-    padding: 0 0.5rem;
+    padding: 0 20px;
     width: 30;
     height: 30;
 }
@@ -455,4 +449,5 @@ button {
     opacity: 36%;
     font-size: 12px;
     font-weight: 400;
+    padding-bottom: 40px;
 }
