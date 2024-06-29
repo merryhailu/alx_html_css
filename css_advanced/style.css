@@ -22,50 +22,46 @@ body {
 
 /*--------------------- Nav Bar-------------------  */
 
-nav {
-    background: transparent;
-    width: 100vw;
-    height: 5rem;
-    position: fixed;
-    top: 0;
-    z-index: 11;
-}
 
-.nav_container {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 35px 171px;
 
-}
 
-.menu {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-}
 
-.menu a {
-    text-decoration: none;
-    color: var(--color-text);
-    font-size: 12px;
-    font-weight: 700;
-    padding: 0 20px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navbar_background {
     background-image: url(./images/Object.png);
     background-size: cover;
     height: 130vh;
-
-
 }
 
-.menu a:hover {
-    color: var(--color-background);
 
-}
+
 
 /*--------------------- Section Header-------------------  */
 
