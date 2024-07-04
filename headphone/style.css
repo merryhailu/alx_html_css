@@ -1,0 +1,27 @@
+/* Globe Styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Base colors */
+
+:root {
+    --color-text-white: #FFFFFF;
+    --color-red: #FF6565;
+    --color-text-black: #071629;
+    --color-background-white: #F2F2F2
+}
+
+
+/* General styles */
+
+
+/* Nav styles */
