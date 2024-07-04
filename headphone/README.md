@@ -1,6 +1,8 @@
-Implement a design from scratch Project - README
-Project Title: Implement a design from scratch Headphone company
+Implement a design from scratch Project - README <br>
+Project Title: Implement a design from scratch Headphone company <br>
+
 Project Overview
+
 This project demonstrates HTML and advanced CSS techniques for creating sophisticated and interactive web page designs.
 
 It has different pages
@@ -29,14 +31,14 @@ We'd love to hear from you! Whether you have questions about our products, feedb
 
 Requirements :
 
-you are not allowed to import external CSS framework (like Bootstrap)
+you are not allowed to import external CSS framework (like Bootstrap) <br>
 you are not to use Javascript
 
 Features
 
-Advanced Layouts: Implementing CSS Grid and Flexbox for responsive and complex layouts.
-Responsive Design: Media queries and fluid layouts to ensure the design looks great on all devices.
-Custom Properties: Utilizing CSS variables for easier theming and maintainability.
+Advanced Layouts: Implementing CSS Grid and Flexbox for responsive and complex layouts. <br>
+Responsive Design: Media queries and fluid layouts to ensure the design looks great on all devices. <br>
+Custom Properties: Utilizing CSS variables for easier theming and maintainability. <br>
 Pseudo-classes and Pseudo-elements: Enhancing UI/UX with hover effects, focus states, and content manipulation.
 
 This webpage has been designed by Nicolas Philippot, UI/UX designer.
@@ -45,21 +47,21 @@ This webpage has been designed by Nicolas Philippot, UI/UX designer.
 
 Technologies Used
 
-HTML5: For the structure of the web pages.
+HTML5: For the structure of the web pages. <br>
 CSS3: For styling, animations, and responsive design.
 
 Usage
 Open the index.html file in your web browser to view the project. You can also use a local server for a better development experience:
 
-Using Live Server (VS Code Extension):
-Install the Live Server extension from the VS Code marketplace.
-Open the project folder in VS Code.
-Right-click on index.html and select "Open with Live Server".
-Contact Information
-For any inquiries or feedback, please contact:
+Using Live Server (VS Code Extension): <br>
+Install the Live Server extension from the VS Code marketplace. <br>
+Open the project folder in VS Code. <br>
+Right-click on index.html and select "Open with Live Server". <br>
+Contact Information <br>
+For any inquiries or feedback, please contact: 
 
-Name: Meron Hailu
-Email: hailumeron03@gmail.com
-GitHub: merryhailu
+Name: Meron Hailu <br>
+Email: hailumeron03@gmail.com <br>
+GitHub: merryhailu <br>
 Thank you for checking out this project! We hope you find it useful and informative. Happy coding!
 
