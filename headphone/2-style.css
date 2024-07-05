@@ -449,6 +449,7 @@ nav .logo {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    font-size: 12px;
 }
 
 /*----------------Media queries for tablet styles of Our Results------------------- */
@@ -469,5 +470,10 @@ nav .logo {
     .part-3-dark p {
         padding-left: 34px;
         padding-right: 34px;
+    }
+
+    .dots {
+        flex-direction: column;
+        margin: 0 auto;
     }
 }
