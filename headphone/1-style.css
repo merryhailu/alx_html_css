@@ -326,6 +326,74 @@ nav .logo {
     .main-part button {
         margin: 40px 70px 65px 70px;
     }
+}
 
+
+
+
+/*---------------- Task 2 - WHAT WE DO Section------------------- */
+
+/*---------------- part-1 what we do styles------------------- */
+
+.what-we-do {
+    text-align: center;
+    padding: 110px 0;
+    color: var(--color-text-black);
+    height: 700h;
+}
+
+.part-1-what-we-do {
+    max-width: 637px;
+    margin: 0 auto;
+}
+
+.part-1-what-we-do h1 {
+    padding-bottom: 40px;
+
+}
+
+.part-1-what-we-do p {
+    padding-bottom: 97px;
+}
+
+.part-2-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 193;
+    gap: 55px;
+}
+
+.icon {
+    max-width: 207px;
+}
+
+.icon h3 {
+    padding: 25px 0 13px;
+}
+
+.icon h5 {
+    line-height: 1.4rem;
+    opacity: 70%;
+}
+
+/*----------------Media queries for tablet styles of What we do------------------- */
+
+@media screen and (max-width: 768px) {
+
+    .part-2-icons {
+        width: 70%;
+        flex-flow: row wrap;
+        margin: 0 auto;
+    }
+}
+
+/*----------------Media queries for Mobile phone styles of What we do------------------- */
+
+@media screen and (max-width: 375px) {
+
+    .part-1-what-we-do p {
+        padding: 0 25px 110px;
+    }
 
 }
