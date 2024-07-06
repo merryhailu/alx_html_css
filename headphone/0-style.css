@@ -260,7 +260,7 @@ nav .logo {
 
 /*----------------Media Queries for Phone of header/hero piece------------------- */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
 
     body {
         height: 850px;
@@ -304,9 +304,9 @@ nav .logo {
     }
 
     .main-part {
-        width: 357px;
+        max-width: 357px;
         height: 436px;
-        margin: 266px 9px 106px 9px;
+        margin: 266px auto 106px;
     }
 
     .main-part h4 {

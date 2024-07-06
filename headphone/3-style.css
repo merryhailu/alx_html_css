@@ -260,7 +260,7 @@ nav .logo {
 
 /*----------------Media Queries for Phone of header/hero piece------------------- */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
 
     body {
         height: 850px;
@@ -306,7 +306,7 @@ nav .logo {
     .main-part {
         width: 357px;
         height: 436px;
-        margin: 266px 9px 106px 9px;
+        margin: 266px auto 106px;
     }
 
     .main-part h4 {
@@ -390,7 +390,7 @@ nav .logo {
 
 /*----------------Media queries for Mobile phone styles of What we do------------------- */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
 
     .part-1-what-we-do p {
         padding: 0 25px 110px;
@@ -407,7 +407,7 @@ nav .logo {
     text-align: center;
     padding: 141px 0 80px 0;
     color: var(--color-text-white);
-    background-image: url('Assets/headphones_hero_2.jpg');
+    background-image: url('./Assets/headphones_hero_2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -465,7 +465,7 @@ nav .logo {
 
 /*----------------Media queries for Mobile phone styles of Our Results------------------- */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
 
     .part-3-dark p {
         padding-left: 34px;
